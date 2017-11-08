@@ -94,3 +94,37 @@ int GetNodeNumKthLevel(BinaryTreeNode * pRoot, int k)
     return (numLeft + numRight);  
 }
 ```
+
+### 打印二叉树每层的最右侧结点
+
+思路：利用cur变量记录位置
+
+```
+  static   public List<Integer> rightSideView(TreeNode root) {  
+        if(root == null){  
+            return  new ArrayList<Integer>();  
+        }  
+        TreeNode currentTreeNode = new TreeNode(0);  
+        List<Integer> list = new ArrayList<Integer>();  
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();  
+        queue.add(root);  
+        int cur =0, last =1;  
+        while(queue.size() != 0){  
+            while(cur < last){  
+                currentTreeNode = queue.remove();  
+                if(currentTreeNode.left != null){  
+                    queue.add(currentTreeNode.left);  
+                }  
+                if(currentTreeNode.right != null){  
+                    queue.add(currentTreeNode.right);  
+                }  
+                cur++;  
+            }  
+            list.add(currentTreeNode.val);  
+  
+            cur =0;  
+            last = queue.size();  
+        }  
+        return  list;  
+    } 
+```
