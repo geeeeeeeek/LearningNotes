@@ -128,3 +128,27 @@ int GetNodeNumKthLevel(BinaryTreeNode * pRoot, int k)
         return  list;  
     } 
 ```
+
+### 最大连续数组的和
+
+如：[2, -3, 5, 6, -4, 2, -3, 6, 2] 的最大连续数组是[5, 6] 和为11
+
+思路：负的+负的 会更小，正的+正的 会更大
+
+```
+int maxSubArray(int A[], int n){
+        int sum = 0;
+        int max_sum = -65535;
+        for(int i = 0;i < n; i++){
+            if(sum > 0){
+                sum += A[i];
+            }else{
+                sum = A[i];
+            }
+            if(sum > max_sum){
+                max_sum = sum;
+            }
+        }
+        return max_sum;
+}
+```
