@@ -137,8 +137,8 @@ int GetNodeNumKthLevel(BinaryTreeNode * pRoot, int k)
 
 ```
 int maxSubArray(int A[], int n){
-        int sum = 0;
-        int max_sum = -65535;
+        int sum = Integer.MIN_VALUE;
+        int max_sum = Integer.MIN_VALUE;
         for(int i = 0;i < n; i++){
             if(sum > 0){
                 sum += A[i];
