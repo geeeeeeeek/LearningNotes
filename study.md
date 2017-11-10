@@ -22,3 +22,9 @@ http://blog.csdn.net/u010687392/article/details/47809295
 接口与抽象类
 
 http://www.cnblogs.com/dolphin0520/p/3811437.html
+
+static 和 final
+
+http://www.importnew.com/7553.html
+https://www.2cto.com/kf/201109/104884.html
+http://www.cnblogs.com/honoka/p/4795891.html
