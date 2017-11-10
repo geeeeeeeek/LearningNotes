@@ -16,3 +16,9 @@ http://blog.csdn.net/luanlouis/article/details/43017071
 SparseArray:
 
 http://blog.csdn.net/u010687392/article/details/47809295
+
+### 基础
+
+接口与抽象类
+
+http://www.cnblogs.com/dolphin0520/p/3811437.html
