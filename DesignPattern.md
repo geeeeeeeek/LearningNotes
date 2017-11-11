@@ -28,3 +28,54 @@ public class Singleton {
     }  
 }
 ```
+### Builder模式
+
+用于替代java bean里面众多的setter方法
+
+```
+public class NutritionFacts {
+	private final int servings;
+	private final int fat;
+	private final int sodium;
+	
+	public static class Builder{
+		private int servings;
+		private int fat;
+		private int sodium;
+		public Builder() {}
+		
+		public Builder servings(int val) {
+			servings = val;
+			return this;
+		}
+		
+		public Builder fat(int val) {
+			fat = val;
+			return this;
+		}
+		
+		public Builder sodium(int val) {
+			sodium = val;
+			return this;
+		}
+		
+		public NutritionFacts build() {
+			return new NutritionFacts(this);
+		}
+	}
+	
+	private NutritionFacts(Builder builder) {
+		servings = builder.servings;
+		fat = builder.fat;
+		sodium = builder.sodium;
+	}
+	
+	public static void main(String aa[]) {
+		NutritionFacts facts = new NutritionFacts.Builder()
+				.servings(20)
+				.fat(13)
+				.sodium(25)
+				.build();
+	}
+}
+```
