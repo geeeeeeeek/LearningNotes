@@ -28,6 +28,14 @@ public class Singleton {
     }  
 }
 ```
+
+枚举
+
+```
+public enum EasySingleton{
+    INSTANCE;
+}
+```
 ### Builder模式
 
 用于替代java bean里面众多的setter方法
