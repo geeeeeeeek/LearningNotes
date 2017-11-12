@@ -9,3 +9,6 @@ http://blog.csdn.net/guolin_blog
 
 ### Binder相关
 http://www.bijishequ.com/detail/306517?p=
+
+### JVM Dalvik ART 比较
+http://blog.csdn.net/jason0539/article/details/50440669
