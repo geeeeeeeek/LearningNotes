@@ -40,6 +40,8 @@ hanndlerThread
 
 五种进程，及回收优先级
 
+Service生命周期
+
 retrofit
 
 invalidate() requestLayout()区别
