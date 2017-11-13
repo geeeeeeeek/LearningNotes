@@ -13,5 +13,8 @@ http://www.bijishequ.com/detail/306517?p=
 ### AMS
 http://www.jianshu.com/p/3d4874a22412
 
+### ActivityThread和ApplicationThread
+http://blog.csdn.net/zy00000000001/article/details/53442878
+
 ### JVM Dalvik ART 比较
 http://blog.csdn.net/jason0539/article/details/50440669
