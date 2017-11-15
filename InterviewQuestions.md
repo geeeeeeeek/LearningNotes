@@ -26,6 +26,10 @@ binder机制
 
 自定义view
 
+View坐标系
+
+View 的 onMeasure中的参数含义
+
 滑动冲突listview的item
 
 intentservice
