@@ -50,6 +50,12 @@ retrofit
 
 invalidate() requestLayout()区别
 
+setContentView() 发生了什么
+
+onMeasure注意的点
+
+handler如何实现阻塞，何时推出阻塞
+
 属性动画原理
 
 Thread里面handler里面的runnable运行在哪个线程
