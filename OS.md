@@ -55,3 +55,12 @@ public class TraditionalBlockingQueue<T> implements IBlockingQueue<T> {
     }
 } 
 ```
+
+问题：为什么在wait()/notify()外面加synchronized同步块？
+
+1. 程序会抛出java.lang.IllegalMonitorStateException  
+2. 若不加锁，容易造成竞态条件错乱，例如下面  
+```
+if(size <= 0)
+    wait();
+```
