@@ -61,18 +61,20 @@ public class TraditionalBlockingQueue<T> implements IBlockingQueue<T> {
 1. 程序会抛出java.lang.IllegalMonitorStateException  
 2. 若不加锁，容易造成竞态条件错乱，例如下面  
 ```
-void put(){
-if(size <= 0)
-    wait();
-    size--;
+void get(){
+    if(size <= 0){
+        wait();
+        size--;
+    }
 }
     ...
     
-void get(){
-if(size > 0)
-    size++;
-    notify();
+void put(){
+    if(size > 0){
+        size++;
+        notify();
+    }
 }
 ```
 
-若size加1后，put()方法只执行到wait()之前，那么wait()会一直阻塞下去。
+若size加1后，put()方法只执行到wait()之前，那么get中的wait()会一直阻塞下去。
