@@ -60,6 +60,10 @@ handler如何实现阻塞，何时推出阻塞
 
 Thread里面handler里面的runnable运行在哪个线程
 
+OOM 内存泄漏 如何远程查。
+
+DDMS MAT traceView 使用
+
 接口作用，抽象类作用，区别
 
 final的作用，static的作用
