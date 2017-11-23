@@ -72,6 +72,8 @@ synchonized作用
 
 static同步对象锁
 
+java中的锁 有哪些？
+
 sparsearray内部原理
 
 上传一个文件的实现
