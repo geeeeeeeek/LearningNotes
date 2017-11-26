@@ -64,6 +64,8 @@ OOM 内存泄漏 如何远程查。
 
 DDMS MAT traceView 使用
 
+擅长什么？渲染 or 算法 or  底层 ？
+
 接口作用，抽象类作用，区别
 
 final的作用，static的作用
