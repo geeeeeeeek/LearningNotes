@@ -1,4 +1,9 @@
 
+#### mysql 远程访问
+然后打开vim  /etc/mysql/my.cnf  
+将bind-address    = 127.0.0.1  
+设置成bind-address    = 0.0.0.0（设备地址）  
+
 #### 2017.12.4  
 周一，上午懒洋洋的，每次都如此，下午看了一批新需求；学习了抓包工具fiddler的使用。
 
