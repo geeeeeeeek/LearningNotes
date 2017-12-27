@@ -1,3 +1,6 @@
+#### mac上传文件到ubuntu 
+scp /path/filename ubuntu@servername:/path 
+
 
 #### Pixolor 一个android屏幕取色工具  
 https://www.appinn.com/pixolor-for-android/  
