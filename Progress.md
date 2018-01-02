@@ -1,3 +1,6 @@
+#### 冲突解决
+git解决冲突之后，git add file... 
+
 #### mac上传文件到ubuntu 
 scp /path/filename ubuntu@servername:/path 
 
