@@ -1,3 +1,7 @@
+#### json解析
+- JSON.stringify() object-->str
+- JSON.parse()  str-->object
+
 #### 冲突解决
 git解决冲突之后，git add file... 
 
