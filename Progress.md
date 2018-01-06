@@ -5,7 +5,12 @@
 - 测试配置是否有语法错误： nginx -t
 - 配置文件路径：/usr/local/etc/nginx/nginx.conf
 
-https://segmentfault.com/a/1190000005090828
+#### Mac PHP 安装
+- 参考 https://segmentfault.com/a/1190000005090828
+- 配置环境变量：PATH="/usr/local/sbin:$PATH"
+- 命令： php56-fpm {start|stop|force-quit|restart|reload|status}
+- php.ini位置：/usr/local/etc/php/5.6
+- php-fpm.conf位置：/usr/local/etc/php/5.6
 
 #### json解析
 - JSON.stringify() object-->str
