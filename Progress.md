@@ -1,8 +1,11 @@
 #### Mac Nginx  
-- 启动 nginx服务： sudo nginx
+- 安装nginx服务：brew install nginx
+- 启动nginx服务： sudo nginx
 - 重新加载配置|重启|停止|退出： nginx -s reload|reopen|stop|quit
 - 测试配置是否有语法错误： nginx -t
 - 配置文件路径：/usr/local/etc/nginx/nginx.conf
+
+https://segmentfault.com/a/1190000005090828
 
 #### json解析
 - JSON.stringify() object-->str
