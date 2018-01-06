@@ -8,13 +8,17 @@
 #### Mac PHP 安装
 - 参考 https://segmentfault.com/a/1190000005090828
 - 配置环境变量：PATH="/usr/local/sbin:$PATH"
-- 命令： php56-fpm {start|stop|force-quit|restart|reload|status}
+- 操作命令：sudo php56-fpm {start|stop|force-quit|restart|reload|status}
 - php.ini位置：/usr/local/etc/php/5.6
 - php-fpm.conf位置：/usr/local/etc/php/5.6
 
 #### json解析
 - JSON.stringify() object-->str
 - JSON.parse()  str-->object
+
+#### iterm2 快捷键
+- 新建分屏 command+D
+- 关闭分屏 command+W
 
 #### 冲突解决
 git解决冲突之后，git add file... 
