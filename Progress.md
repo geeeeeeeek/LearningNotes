@@ -12,6 +12,12 @@
 - php.ini位置：/usr/local/etc/php/5.6
 - php-fpm.conf位置：/usr/local/etc/php/5.6
 
+#### Mac Mysql配置
+- 配置文件路径：/usr/local/Cellar/mysql/
+- mysql.server start|stop|status #启动|停止|状态
+- 设置密码：/usr/local/bin/mysqladmin -u root password 'new-password'
+- 连接mysql：mysql -uroot -p
+
 #### json解析
 - JSON.stringify() object-->str
 - JSON.parse()  str-->object
