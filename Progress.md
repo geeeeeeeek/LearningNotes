@@ -20,7 +20,7 @@
 - 连接mysql：mysql -uroot -p
 
 #### &#65279 编码问题
-- 将页面编码保存为utf-8格式即可
+- 将页面编码保存为utf-8格式即可，然后revome BOM
 
 #### json解析
 - JSON.stringify() object-->str
