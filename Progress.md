@@ -19,6 +19,9 @@
 - 设置密码：/usr/local/bin/mysqladmin -u root password 'new-password'
 - 连接mysql：mysql -uroot -p
 
+#### &#65279 编码问题
+- 将页面编码保存为utf-8格式即可
+
 #### json解析
 - JSON.stringify() object-->str
 - JSON.parse()  str-->object
