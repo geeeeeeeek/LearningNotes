@@ -26,6 +26,12 @@
 - JSON.stringify() object-->str
 - JSON.parse()  str-->object
 
+#### git stash
+- 保存工作区： git stash save "desc"
+- 显示列表： git stash list
+- 恢复工作区：git stash pop
+- 恢复指定save： git stash pop stash@{序号}
+
 #### iterm2 快捷键
 - 新建分屏 command+D
 - 关闭分屏 command+W
