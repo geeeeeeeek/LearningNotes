@@ -1,3 +1,10 @@
+#### 关于5年长期计划
+- 做有价值的事情
+- 看清趋势，积累用户。
+- 垂直行业。
+- 用1年的时间来思考。
+- 做好充分调研
+
 #### Mac Nginx  
 - 安装nginx服务：brew install nginx
 - 启动nginx服务： sudo nginx
