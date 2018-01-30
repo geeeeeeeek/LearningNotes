@@ -40,6 +40,10 @@
 - 恢复工作区：git stash pop
 - 恢复指定save： git stash pop stash@{序号}
 
+#### 拉取远程并强制覆盖本地
+- $ git fetch --all
+- $ git reset --hard origin/master
+
 #### iterm2 快捷键
 - 新建分屏 command+D
 - 关闭分屏 command+W
