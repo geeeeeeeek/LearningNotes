@@ -48,6 +48,8 @@
 - 新建分屏 command+D
 - 关闭分屏 command+W
 
+#### git cherry-pick hash值
+
 #### 冲突解决
 git解决冲突之后，git add file... 
 
