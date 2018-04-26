@@ -69,6 +69,8 @@
 - ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/053.jpg)
 - 上图中，纵坐标是代价值，横坐标是参数值，梯度下降就是让参数值从一个起始点开始，一步一步朝着代价值最小的方向变化。
 
+#### Todo
+- 随机森林、信息熵、交叉熵、KL散度、各种距离（欧式）
 
 #### 参考文献
 - [1] https://blog.csdn.net/yewei11/article/details/50537648
