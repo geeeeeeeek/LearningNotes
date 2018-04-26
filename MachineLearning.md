@@ -52,7 +52,22 @@
 
 #### 决策树
 - 假设我们有一组数据，该数据记录了用户的性别、年龄和下载的APP。我们首先根据年龄对用户下载的APP进行分类，然后再根据性别进行分类，这种方式就是决策树。
-![]()
+![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/050.jpg)
+
+#### 朴素贝叶斯（Naive Bayes）
+- 假设我们想分类垃圾邮件，通过统计我们发现，有80%垃圾邮件包含字眼“cheap”，有70%垃圾邮件包含拼写错误，有95%垃圾邮件没有标题，朴素贝叶斯方法简单说就是利用这些统计数据和下图中的条件概率分布公式实现垃圾邮件分类：![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/051.jpg)
+![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/052.jpg)  
+
+通过统计我们知道了以下概率：  
+1. 垃圾邮件包含字眼“cheap”的概率是80%（公式中的P(data|class)）    
+2. 垃圾邮件占所有邮件的比例是50%（公式中的P(class)）  
+3. 包含字眼“cheap”的邮件占所有邮件的比例是60%（公式中的P(data)）    
+那么通过公式我们就可以得到包含字眼“cheap”的邮件是垃圾邮件的比例
+
+#### 梯度下降（Gradient Descent）
+- 梯度下降法是一个一阶最优化算法，通常也称为最速下降法。要使用梯度下降法找到一个函数的局部极小值，必须向函数上当前点对于梯度（或者是近似梯度）的反方向的规定步长距离点进行迭代搜索。所以梯度下降法可以帮助我们求解某个函数的极小值或者最小值。对于n维问题就最优解，梯度下降法是最常用的方法之一。
+- ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/053.jpg)
+- 上图中，纵坐标是代价值，横坐标是参数值，梯度下降就是让参数值从一个起始点开始，一步一步朝着代价值最小的方向变化。
 
 
 #### 参考文献
