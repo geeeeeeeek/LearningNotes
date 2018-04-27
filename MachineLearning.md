@@ -81,7 +81,6 @@
 - KL散度，有时候也叫KL距离，一般被用于计算两个分布之间的不同
 - 数学定义：  
 ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/055.svg)  
-
 ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/056.svg)
 
 #### 交叉熵
