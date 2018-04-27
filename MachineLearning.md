@@ -92,7 +92,9 @@
 #### 各种距离 [8]
 
 #### 欧式距离
+- 二维平面上点a(x1,y1)与b(x2,y2)间的欧氏距离:
 - ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/058.png)
+- n维空间点a(x11,x12,…,x1n)与b(x21,x22,…,x2n)间的欧氏距离（两个n维向量）
 - ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/060.png)
  #### 夹角余弦
 - ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/061.png)
