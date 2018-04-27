@@ -92,7 +92,10 @@
 #### 各种距离 [8]
 
 #### 欧式距离
-- 
+- ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/058.png)
+- ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/060.png)
+ #### 夹角余弦
+- ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/061.png)
 
 
 #### Todo
