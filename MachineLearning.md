@@ -81,18 +81,22 @@
 - KL散度，有时候也叫KL距离，一般被用于计算两个分布之间的不同
 - 数学定义：  
 ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/055.svg)  
-
 ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/056.svg)
 
 #### 交叉熵
-- 来计算两个分布间的不同
-- 等价
-- 既然等价，那么我们优先选择更简单的公式，因此选择交叉熵。
+- 来计算两个分布间的不同   [7]
+![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/057.png)
+- 与KL散度等价，那么我们优先选择更简单的公式，因此选择交叉熵。
 - 交叉熵可以用于计算“学习模型的分布”与“训练数据分布”之间的不同。当交叉熵最低时(等于训练数据分布的熵)，我们学到了“最好的模型”。
+
+#### 各种距离 [8]
+
+#### 欧式距离
+- 
 
 
 #### Todo
-- 随机森林、信息熵、交叉熵、KL散度、各种距离（欧式）
+- 随机森林、信息熵、交叉熵、KL散度、各种距离（欧式）、损失函数、one-hot向量、softmax、
 
 #### 参考文献
 - [1] https://blog.csdn.net/yewei11/article/details/50537648
@@ -101,3 +105,5 @@
 - [4] 机器学习
 - [5] 机器学习实战
 - [6] https://www.zhihu.com/question/65288314
+- [7] https://www.zhihu.com/question/41252833
+- [8] https://my.oschina.net/hunglish/blog/787596
