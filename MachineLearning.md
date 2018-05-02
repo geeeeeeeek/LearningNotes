@@ -101,6 +101,13 @@
 
 #### 激活函数 [9]
 - 激活函数是用来加入非线性因素的，解决线性模型所不能解决的问题。
+- 首先我们有这个需求，就是二分类问题，如我要将下面的三角形和圆形点进行正确的分类，如下图  
+![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/062.jpg)  
+- ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/064.jpg)  
+- 很容易能够看出，我给出的样本点根本不是线性可分的
+- 引入非线性函数
+- ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/065.jpg)
+- ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/066.jpg)
 
 
 #### Todo
@@ -110,7 +117,7 @@
 - [1] https://blog.csdn.net/yewei11/article/details/50537648
 - [2] https://www.zhihu.com/question/24261751
 - [3] 数学之美
-- [4] 机器学习
+- [4] 机器学习(Tom M.Michell)
 - [5] 机器学习实战
 - [6] https://www.zhihu.com/question/65288314
 - [7] https://www.zhihu.com/question/41252833
