@@ -99,9 +99,12 @@
  #### 夹角余弦
 - ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/061.png)
 
+#### 激活函数 [9]
+- 激活函数是用来加入非线性因素的，解决线性模型所不能解决的问题。
+
 
 #### Todo
-- 随机森林、信息熵、交叉熵、KL散度、各种距离（欧式）、损失函数、one-hot向量、softmax、
+- 随机森林、激活函数、过拟合、损失函数、one-hot向量、softmax、
 
 #### 参考文献
 - [1] https://blog.csdn.net/yewei11/article/details/50537648
@@ -112,3 +115,4 @@
 - [6] https://www.zhihu.com/question/65288314
 - [7] https://www.zhihu.com/question/41252833
 - [8] https://my.oschina.net/hunglish/blog/787596
+- [9] https://zhuanlan.zhihu.com/p/25279356
