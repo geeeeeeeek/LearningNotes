@@ -101,7 +101,17 @@
 
 #### 激活函数 [9]
 - 激活函数是用来加入非线性因素的，解决线性模型所不能解决的问题。
+- 首先我们有这个需求，就是二分类问题，如我要将下面的三角形和圆形点进行正确的分类，如下图  
+![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/062.jpg)  
+- ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/064.jpg)  
+- 很容易能够看出，我给出的样本点根本不是线性可分的
+- 引入非线性函数
+- ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/065.jpg)
+- ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/066.jpg)
 
+#### 损失函数 [10]
+- 损失函数（loss function）是用来估量你模型的预测值f(x)与真实值Y的不一致程度，它是一个非负实值函数,通常使用L(Y, f(x))来表示，损失函数越小，模型的鲁棒性就越好.
+- 
 
 #### Todo
 - 随机森林、激活函数、过拟合、损失函数、one-hot向量、softmax、
@@ -110,9 +120,10 @@
 - [1] https://blog.csdn.net/yewei11/article/details/50537648
 - [2] https://www.zhihu.com/question/24261751
 - [3] 数学之美
-- [4] 机器学习
+- [4] 机器学习(Tom M.Michell)
 - [5] 机器学习实战
 - [6] https://www.zhihu.com/question/65288314
 - [7] https://www.zhihu.com/question/41252833
 - [8] https://my.oschina.net/hunglish/blog/787596
 - [9] https://zhuanlan.zhihu.com/p/25279356
+- [10] https://zhuanlan.zhihu.com/p/28761075
