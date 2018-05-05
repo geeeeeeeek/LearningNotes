@@ -114,9 +114,9 @@
 - 一个模型的训练过程如下：  
 ![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/067.jpg)
 - 几种比较主流的损失函数计算方法
- - 平方损失函数
- - 交叉熵损失函数
- - 对数似然函数损失函数
+  - 平方损失函数
+  - 交叉熵损失函数
+  - 对数似然函数损失函数
 
 #### Todo
 - 随机森林、激活函数、过拟合、损失函数、one-hot向量、softmax、
