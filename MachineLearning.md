@@ -111,7 +111,12 @@
 
 #### 损失函数 [10]
 - 损失函数（loss function）是用来估量你模型的预测值f(x)与真实值Y的不一致程度，它是一个非负实值函数,通常使用L(Y, f(x))来表示，损失函数越小，模型的鲁棒性就越好.
-- 
+- 一个模型的训练过程如下：  
+![](https://github.com/geeeeeeeek/LearningNotes/blob/master/Images/067.jpg)
+- 几种比较主流的损失函数计算方法
+ - 平方损失函数
+ - 交叉熵损失函数
+ - 对数似然函数损失函数
 
 #### Todo
 - 随机森林、激活函数、过拟合、损失函数、one-hot向量、softmax、
