@@ -2,6 +2,9 @@
 ### 类加载器
 http://blog.csdn.net/javazejian/article/details/73413292
 
+### python进阶
+https://juejin.im/post/59e6af7e5188250989512b4b
+
 ### 反射相关
 http://www.jianshu.com/p/f83556bcae59
 
