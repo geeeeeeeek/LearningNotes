@@ -97,7 +97,29 @@ JVM、Dalvik、ART 比较
 
 项目中的亮点/难点
 
-##  学习参考
+
+### invalidate()和requestLayout区别
+http://blog.csdn.net/litefish/article/details/52859300
+http://blog.csdn.net/monkey646812329/article/details/52938058
+
+### 优秀博客（郭霖，任玉刚） 
+http://blog.csdn.net/singwhatiwanna
+
+http://blog.csdn.net/guolin_blog
+
+### Binder相关
+http://www.bijishequ.com/detail/306517?p=
+
+### AMS
+http://www.jianshu.com/p/3d4874a22412
+
+### ActivityThread和ApplicationThread
+http://blog.csdn.net/zy00000000001/article/details/53442878
+
+### JVM Dalvik ART 比较
+http://blog.csdn.net/jason0539/article/details/50440669
+
+
 ### 类加载器
 http://blog.csdn.net/javazejian/article/details/73413292
 
