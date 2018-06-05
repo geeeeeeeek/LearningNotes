@@ -65,7 +65,7 @@
 git解决冲突之后，git add file... 
 
 #### mac上传文件到ubuntu 
-scp /path/filename ubuntu@servername:/path 
+scp /path/filename ubuntu@servername:/tmp 建议先传到tmp目录，因为它有权限
 
 #### 二级域名配置
 - 阿里云配置二级域名IP指向
