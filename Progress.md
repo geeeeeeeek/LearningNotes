@@ -17,6 +17,11 @@
 - 做好充分调研
 - 做对核心价值有增长，对未来规划有帮助的事情
 
+#### linux定时任务
+- crontab -l  列出定时任务
+- crontab -r  删除定时任务
+- 定时脚本 https://www.cnblogs.com/free-long/p/6646621.html
+
 #### Mac Nginx  
 - 安装nginx服务：brew install nginx
 - 启动nginx服务： sudo nginx
