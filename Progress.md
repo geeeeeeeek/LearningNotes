@@ -18,8 +18,9 @@
 - 做对核心价值有增长，对未来规划有帮助的事情
 
 #### linux定时任务
-- crontab -l  列出定时任务
-- crontab -r  删除定时任务
+- crontab -e  //编辑定时任务
+- crontab -l  //列出定时任务
+- crontab -r  //删除定时任务
 - 定时脚本 https://www.cnblogs.com/free-long/p/6646621.html
 
 #### Mac Nginx  
