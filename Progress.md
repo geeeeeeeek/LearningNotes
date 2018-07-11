@@ -1,3 +1,6 @@
+#### 通过virtualEnv安装TensorFlow
+- https://zhuanlan.zhihu.com/p/28362186
+
 #### 先验概率，后验概率，似然概率，条件概率，贝叶斯，最大似然
 - https://www.douban.com/note/479501378/
 - https://www.zhihu.com/question/24261751
