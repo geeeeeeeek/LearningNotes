@@ -1,3 +1,18 @@
+#### 安装face_recognition
+brew install cmake
+
+brew install boost
+
+brew install boost-python --with-python3
+
+pip install dlib #安装dlib依赖包 
+
+pip install face_recognition
+
+即可
+
+https://blog.csdn.net/karmacode/article/details/78666935
+
 #### 通过virtualEnv安装TensorFlow
 - https://zhuanlan.zhihu.com/p/28362186
 
