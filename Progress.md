@@ -1,3 +1,6 @@
+#### 删除.DS_Store文件
+sudo find ./ -name ".DS_Store" -depth -exec rm {} \;
+
 #### 安装face_recognition
 brew install cmake
 
