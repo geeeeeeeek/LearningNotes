@@ -1,3 +1,6 @@
+#### np.newaxis用法
+- https://blog.csdn.net/lanchunhui/article/details/49725065
+
 #### 删除.DS_Store文件
 sudo find ./ -name ".DS_Store" -depth -exec rm {} \;
 
