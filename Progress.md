@@ -1,5 +1,6 @@
 #### LSTM介绍
 - https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+- [一个很棒的国外博客](https://colah.github.io/)
 
 #### np.newaxis用法
 - https://blog.csdn.net/lanchunhui/article/details/49725065
