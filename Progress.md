@@ -33,8 +33,8 @@ https://blog.csdn.net/karmacode/article/details/78666935
 #### 关于长期兴趣
 - 严谨
 - 书法
+- 读书
 - 听收音机
-- 乐器-萧
 - 考证
 
 #### 关于5年长期计划
