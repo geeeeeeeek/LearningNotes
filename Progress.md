@@ -1,3 +1,26 @@
+#### django response
+
+```
+ # return json
+return JsonResponse({"msg": "ok"})
+
+# return json
+response_data = dict()
+response_data['code'] = 0
+response_data['message'] = 'success'
+return HttpResponse(json.dumps(response_data), content_type="application/json")
+    
+# return text
+return HttpResponse("Hello, 这里是投票页面.")
+    
+# return a html page
+return render(request, 'index.html', {'str': 'xiaoqingsong'})
+
+# return a html page with params
+text = Question.objects.get(id='1').question_text
+return render(request, 'index.html', {'str': text})
+```
+
 #### LSTM介绍
 - https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 - [一个很棒的国外博客](https://colah.github.io/)
